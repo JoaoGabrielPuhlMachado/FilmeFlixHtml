@@ -1,0 +1,191 @@
+body {
+  background-color: rgb(32, 32, 32);
+}
+.blur {
+  filter: blur(60px);
+  z-index: -1;
+}
+.fundoblur { 
+  position: fixed;
+  z-index: -2;
+  filter: blur(5px);
+  width: 100%;
+  height: 100%;
+  background-color: rgb(32, 32, 32);
+  top: 0%;
+  background-image: url(imagens/outragalaxia.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.shape1 {
+  top: 20%;
+  left: 20%;
+  position: fixed;
+  background-color: aqua;
+  width: 100px;
+  height: 100px;
+  color: transparent;
+}
+.shape2 {
+  top: 75%;
+  left: 4%;
+  position: fixed;
+  background-color: white;
+  width: 150px;
+  height: 150px;
+  color: transparent;
+}
+.shape3 {
+  top: 15%;
+  position: fixed;
+  left: 90%;
+  background-color: blueviolet;
+  width: 200px;
+  height: 200px;
+  color: transparent;
+}
+.shape4 {
+  top: 70%;
+  position: fixed;
+  left: 50%;
+  background-color: fuchsia;
+  width: 100px;
+  height: 100px;
+  color: transparent;
+}
+.shape5 {
+  top: 85%;
+  position: fixed;
+  left: 80%;
+  background-color: aqua;
+  width: 100px;
+  height: 100px;
+  color: transparent;
+}
+.shape6 {
+  top: 25%;
+  position: fixed;
+  left: 25%;
+  background-color: fuchsia;
+  width: 100px;
+  height: 100px;
+  color: transparent;
+}
+.shape7 {
+  top: 65%;
+  position: fixed;
+  left: 45%;
+  background-color: blueviolet;
+  width: 100px;
+  height: 100px;
+  color: transparent;
+}
+.shape8 {
+  top: 25%;
+  position: fixed;
+  left: 60%;
+  background-color: white;
+  width: 100px;
+  height: 100px;
+  color: transparent;
+}
+.carousel-inner img {
+  width: 100%;
+  height: 800px;
+}
+.carousel-control-prev,
+.carousel-control-next {
+  z-index: 0;
+}
+header {
+  height: 60px;
+  background-color: rgb(46, 46, 46);
+  color: white;
+  font-size: 1.3em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 20px;
+}
+header span {
+  margin: 0 10px;
+}
+.loginbtn {
+  border: none;
+  color: white;
+  background: none;
+}
+.login:hover .loginchild {
+  display: block;
+  z-index: 1;
+  right: 0;
+}
+.loginchild input {
+  width: 218px;
+  border: 1px solid rgb(233, 233, 233);
+  border-radius: 0;
+  margin: 6px;
+  padding: 5px;
+}
+.loginchild {
+  display: none;
+  z-index: 1;
+  width: 230px;
+  color: black;
+  position: absolute;
+  background-color: rgb(255, 255, 255);
+}
+.cadastro {
+  background-color: rgb(255, 255, 255);
+  height: 60px;
+}
+.loginchild button {
+  font-size: 18px;
+  text-align: center;
+  width: 100px;
+  background-color: rgb(92, 181, 255);
+  color: white;
+  border: 1px solid rgb(233, 233, 233);
+  margin: 15px 6.3px;
+}
+.loginchild button:hover {
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  width: 230px;
+  background-color: rgb(255, 255, 255);
+  color: black;
+  margin: 0 10px;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+  z-index: 1;
+}
+.dropdown-content a {
+  display: block;
+  text-decoration: none;
+  color: black;
+  padding: 0 5px;
+}
+.dropdown-content a:hover {
+  background-color: rgb(233, 233, 233);
+  padding: 0 10px;
+}
+.nome {
+  color: white;
+  text-align: center;
+  margin-top: 2%;
+}
+.filme {
+  width: 350px;
+  height: 500px;
+  margin: 2% 3%;
+}
